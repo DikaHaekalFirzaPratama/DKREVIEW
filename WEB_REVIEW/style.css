@@ -1,0 +1,416 @@
+    
+@import url('https://fonts.cdnfonts.com/css/thegoodmonolith');
+
+html {
+  background-color: black;
+  scroll-behavior:smooth;
+  scroll-padding: 4rem;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'TheGoodMonolith', sans-serif;
+  background-color: white;
+}
+/*Bar Navigasi--------------------------------------------------------------------------------------------------------*/
+
+nav.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 100s;
+  z-index: 999; 
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color:white;
+}
+
+.navbar img {
+  margin: 10px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.menu a {
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  padding: 15px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'TheGoodMonolith', sans-serif;
+}
+
+.menu a:hover {
+  color: deepskyblue;
+}
+
+.logo-name {
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-bottom: 5px;
+}
+/*akhir Bar Navigasi--------------------------------------------------------------------------------------------------------*/
+
+/*halaman 1--------------------------------------------------------------------------------------------------------*/
+.halaman1 {
+  margin-top: 70px;
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+h2 {
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  color: black;
+}
+
+.Namabrand-container {
+  margin-top: 50px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Namabrand-item {
+  flex-basis: 10px;
+  margin: 7px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 1px 2px 20px rgba(2, 2, 2, 2);
+  gap: 1px;
+  border: 1px red;
+
+}
+.Namabrand-item img { 
+  width:320px ;
+  height: 320px;
+  object-fit: contain;
+  transition: transform 1s;
+
+}
+.Namabrand-item:hover img{
+  transform: scale(1.1);
+}
+/*akhir halaman 1--------------------------------------------------------------------------------------------------------*/
+
+
+/* halaman 2--------------------------------------------------------------------------------------------------------*/
+.halaman2 {
+  margin-top: 40px;
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: inline-block;
+}
+
+.taghalaman2 {
+  text-decoration: none;
+  text-shadow: none;
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+h3 {
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  color: black;
+}
+
+.hp-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hp-item {
+  flex-basis: 10px;
+  margin: 7px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 1px 2px 20px rgba(2, 2, 2, 2);
+  gap: 1px;
+
+}
+.hp-item img {
+  outline-color:black; 
+  width:320px ;
+  height: 320px;
+  object-fit: contain;
+}
+.hp-item:hover img{
+}
+
+/*akhir Halaman 2--------------------------------------------------------------------------------------------------------*/
+
+/*Halaman 3--------------------------------------------------------------------------------------------------------*/
+.halaman3 {
+  margin-top: 40px;
+  width: 100%;
+  height: 700px;
+  background-color: black;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.halaman3 img{
+  margin: 90px;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  /*transition: transform 2s;*/
+}
+/*.halaman3:hover img{
+  transform: scale(1.1);
+} */
+
+.image-container {
+  float: left;
+  margin-right: 20px;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+  line-height: 27px;
+  padding-top: 10px;
+}
+
+.descriptiontext {
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  padding-right: 20px;
+}
+/*akhir halaman 3--------------------------------------------------------------------------------------------------------*/
+
+/* halaman 4--------------------------------------------------------------------------------------------------------*/
+
+footer{
+  background-color: black;
+  margin-top: 40px;
+}
+
+h5{
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  color: white;
+}
+
+.footer-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footkontak{
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+/*akhir Halaman 4--------------------------------------------------------------------------------------------------------*/
+
+
+/*pengubahan ukuran layar--------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1435px) {
+
+  .navbar img {
+    margin: 10px;
+    height: 40px;
+  }
+  .menu a {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .logo-name {
+    font-size: 40px;
+  }
+  .Namabrand-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .Namabrand-item img { 
+    width:300px ;
+    height: 300px;
+  }
+
+  .hp-item img {
+    width:300px ;
+    height:300px;
+
+  }
+  h3 {
+    font-size: 30px;
+  }
+
+  .halaman3 img{
+    margin: 70px;
+    float: left;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+  .descriptiontext {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1355px) {
+
+  .Namabrand-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+
+  .Namabrand-item img { 
+    width:250px ;
+    height: 250px;
+  }
+
+  .hp-item img {
+    width:250px ;
+    height:250px;
+
+  }
+  h3 {
+    font-size:40px;
+  }
+
+  .halaman3 img{
+    margin: 50px;
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+
+  .Namabrand-item img { 
+    width: 200px ;
+    height: 200px;
+  }
+
+  .hp-item img {
+    width:200px ;
+    height:200px;
+
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .halaman3 img{
+    margin: 30px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .logo-name {
+    font-size: 30px;
+  }
+
+  .menu a {
+    font-size: 15px;
+    padding: 7px;
+  }
+  .Namabrand-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Namabrand-item img { 
+    width: 150px ;
+    height: 150px;
+  }
+
+  .hp-item img {
+    width:150px ;
+    height:150px;
+
+  }
+  h3 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .halaman3 img{
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .descriptiontext {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+}
+    /*akhir pengubahan ukuran layar--------------------------------------------------------------------------------------------------------*/

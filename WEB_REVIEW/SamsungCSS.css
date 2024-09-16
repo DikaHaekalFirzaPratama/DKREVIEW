@@ -1,0 +1,194 @@
+
+@import url('https://fonts.cdnfonts.com/css/thegoodmonolith');
+
+body {
+    margin-top: 85px;
+    background-color: white;
+}
+
+/*Bar Navigasi--------------------------------------------------------------------------------------------------------*/
+
+nav.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 100s;
+  z-index: 999; 
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:white;
+}
+
+.navbar img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.menu a {
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  padding: 15px;
+  border-radius: 0px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'TheGoodMonolith', sans-serif;
+}
+
+.menu a:hover {
+  color: deepskyblue;
+}
+
+.logo-name {
+  font-family: 'TheGoodMonolith', sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    background-color: lightgrey;
+}
+
+.search-button {
+    font-family: 'TheGoodMonolith', sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.search-button:hover {
+    color: deepskyblue;
+
+}
+/*akhir Bar Navigasi--------------------------------------------------------------------------------------------------------*/
+
+.hp-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hp-item {
+    flex-basis: 300px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: none;
+    padding: 20px;
+    border-radius: 0px;
+    /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 1);*/
+}
+
+.hp-item:hover {
+
+}
+
+.hp-item img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    transition: transform 1s;
+}
+
+.hp-item:hover img{
+    transform: scale(1.1);
+}
+
+.hidden {
+    display: none;
+}
+
+li{
+    text-align: left;
+}
+
+.TombolReview{
+    margin-right: 30px;
+    margin-top: 20px;
+    align-items: center;
+    text-decoration: none;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+
+.TombolReview:hover{
+    background-color: black;
+    color: skyblue;
+}
+
+@media screen and (max-width: 1435px) {
+
+  .navbar img {
+    margin: 10px;
+    height: 40px;
+}
+.menu a {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logo-name {
+    font-size: 40px;
+}
+
+/*ukuran layar--------------------------------------------------------------------------------------------------------*/
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .search-input {
+        width: 150px;
+
+    }
+
+
+    @media screen and (max-width: 750px) {
+
+        .logo-name {
+            font-size: 30px;
+        }
+        .search-input {
+            width: 95px;
+        }
+        .search-button {
+            padding: 5px;
+        }
+
+        .menu a {
+            font-size: 15px;
+            padding: 7px;
+        }
+/* akhir ukuran layar--------------------------------------------------------------------------------------------------------*/

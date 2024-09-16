@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DKReview</title>
+  <link rel="stylesheet" href="SamsungCSS.css"/>
+  <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="gambarlogohp4.jpg" alt="Logo">
+    <div class="logo-name">DKReview</div>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Cari VIVO..." id="searchInput">
+      <button class="search-button" onclick="search()">CARI</button>
+    </div>
+    <div class="menu">
+      <a href="web.html">Home</a>
+    </div>
+  </nav>
+
+  <div class="hp-container">
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-y36.jpg" alt="Vivo Y36 4G" onclick="showSpec('1')">
+      <h3>Vivo Y36 4G</h3>
+      <ul id="1" class="hidden">
+        <li>Layar: IPS LCD, 90Hz, 650 nits (peak),6.64 inches, 106.8 cm2 1080 x 2388 pixels </li>
+        <li>Prosesor: Qualcomm SM6225 Snapdragon 680 4G (6 nm)</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: 128GB 4GB RAM, 128GB 8GB RAM, 256GB 8GB RAM</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: 50 MP, f/1.8, (wide), PDAF 2 MP, f/2.4, (depth) 2 MP, f/2.4, (macro)</li>
+        <li>Kamera Depan: 16 MP, f/2.5, (wide)</li>
+        <li>Baterai: Li-Po 5000 mAh, non-removable</li>
+        <li>Jaringan: 4G,</li>
+        <li>Fitur Tambahan: Fingerprint (side-mounted), accelerometer, proximity, gyro, compass</li>
+      </ul>
+    </div>
+    
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-s17-pro.jpg" alt="S12 Pro" onclick="showSpec('3')">
+      <h3>S12 Pro</h3>
+      <ul id="3" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-s17.jpg" alt="S17" onclick="showSpec('4')">
+      <h3>S17</h3>
+      <ul id="4" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-s17t.jpg" alt="S17t" onclick="showSpec('5')">
+      <h3>S17t</h3>
+      <ul id="5" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-y35-plus.jpg" alt="Y35+" onclick="showSpec('6')">
+      <h3>Y35+</h3>
+      <ul id="6" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-y78-global.jpg" alt="Y78" onclick="showSpec('7')">
+      <h3>Y78</h3>
+      <ul id="7" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-s17e.jpg" alt="Y17e" onclick="showSpec('8')">
+      <h3>Y17e</h3>
+      <ul id="8" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-y78-plus.jpg" alt="Y78+" onclick="showSpec('9')">
+      <h3>Y78+</h3>
+      <ul id="9" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-x-fold2.jpg" alt="X Fold 2" onclick="showSpec('10')">
+      <h3>X Fold 2</h3>
+      <ul id="10" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-x-flip.jpg" alt="X Flip" onclick="showSpec('11')">
+      <h3>X Flip</h3>
+      <ul id="11" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-v27.jpg" alt="V27" onclick="showSpec('12')">
+      <h3>V27</h3>
+      <ul id="12" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/vivo-s16e.jpg" alt="V27e" onclick="showSpec('13')">
+      <h3>V27e</h3>
+      <ul id="13" class="hidden">
+        <li>Layar: [Display Specification]</li>
+        <li>Prosesor: [Processor Specification]</li>
+        <li>Sistem Operasi: [Operating System Specification]</li>
+        <li>RAM: [RAM Specification]</li>
+        <li>Penyimpanan Internal: [Internal Storage Specification]</li>
+        <li>Kamera Belakang: [Rear Camera Specification]</li>
+        <li>Kamera Depan: [Front Camera Specification]</li>
+        <li>Baterai: [Battery Specification]</li>
+        <li>Jaringan: [Network Specification]</li>
+        <li>Fitur Tambahan: [Additional Features Specification]</li>
+      </ul>
+    </div>
+
+
+
+
+    <script src="SamsungJava.js"></script>
+  </body>
+  </html>

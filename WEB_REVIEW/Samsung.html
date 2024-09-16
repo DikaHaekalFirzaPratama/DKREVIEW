@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DKReview</title>
+    <link rel="stylesheet" href="SamsungCSS.css"/>
+    <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <img src="gambarlogohp4.jpg" alt="Logo">
+    <div class="logo-name">DKReview</div>
+    <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Cari Samsung..." id="searchInput">
+        <button class="search-button" onclick="search()">CARI</button>
+    </div>
+    <div class="menu">
+      <a href="web.html">Home</a>
+  </nav>
+
+  <div class="hp-container">
+
+
+
+
+
+
+
+
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-5g.jpg" alt="Samsung" onclick="showSpec('hp1')">
+        <h3>Samsung S23 5G</h3>
+        <ul id="hp1" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 8 gen 2</li>
+            <li>RAM: 8GB</li>
+            <li>Penyimpanan: 128GB</li>
+            <li>Layar: 6.4 inci Super AMOLED</li>
+            <li>Kamera: 48MP + 12MP + 5MP</li>
+            <li>Baterai: 4000mAh</li>
+            <li>Jaringan: 5G</li>
+            <button class="TombolReview" onclick="search()">Review Handphone ini</button>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-plus-5g.jpg" alt="Samsung" onclick="showSpec('hp2')">
+        <h3>Samsung S23+</h3>
+        <ul id="hp2" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 8 gen 2</li>
+            <li>RAM: 12GB</li>
+            <li>Penyimpanan: 256GB</li>
+            <li>Layar: 6.7 inci Dynamic AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 20MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+            <button class="TombolReview" onclick="search()">Review Handphone ini</button>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg" alt="Samsung" onclick="showSpec('hp3')">
+        <h3>Samsung S23 Ultra</h3>
+        <ul id="hp3" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 8 gen 2</li>
+            <li>Memori Internal: 128GB, 256GB, 512GB, 1TB</li>
+            <li>RAM: 8GB, 12GB, 16GB</li>
+            <li>Layar: 6.8 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 108MP (f/1.8) + 48MP (f/2.2) + 12MP (f/2.4)</li>
+            <li>Kamera Depan: 40MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: S Pen support, Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+            <button class="TombolReview" onclick="search()">Review Handphone ini</button>
+
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a14-4g.jpg" alt="Samsung" onclick="showSpec('hp4')">
+        <h3>Samsung Galaxy A14</h3>
+        <ul id="hp4" class="hidden">
+            <li>Prosesor: MediaTek Helio P35</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.4 inci Super AMOLED</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 8MP (f/2.2) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 20MP (f/2.0)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC</li>
+            <button class="TombolReview" onclick="search()">Review Handphone ini</button>
+
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a24-4g-2.jpg" alt="Samsung" onclick="showSpec('hp5')">
+        <h3>Samsung Galaxy A24</h3>
+        <ul id="hp5" class="hidden">
+            <li>Prosesor: MediaTek Helio G35</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.5 inci IPS LCD</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 5MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 13MP (f/2.2)</li>
+            <li>Baterai: 5000mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC</li>
+            <button class="TombolReview" onclick="search()">Review Handphone ini</button>
+            s
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a34.jpg" alt="Samsung" onclick="showSpec('hp6')">
+        <h3>Samsung Galaxy A34</h3>
+        <ul id="hp6" class="hidden">
+            <li>Prosesor: Exynos 1380 (5 nm)</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Layar: 6.6 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 8MP (f/2.2) + 5MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a54.jpg" alt="Samsung" onclick="showSpec('hp7')">
+        <h3>Samsung Galaxy A54</h3>
+        <ul id="hp7" class="hidden">
+            <li>Prosesor: Exynos 1380 (5 nm)</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Layar: 6.5 inci Super AMOLED</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP67 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a73-5g.jpg" alt="Samsung" onclick="showSpec('hp8')">
+        <h3>Samsung Galaxy A73</h3>
+        <ul id="hp8" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 778G</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 8GB, 12GB</li>
+            <li>Layar: 6.7 inci Super AMOLED Plus</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 8MP (f/2.2) + 5MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP67 tahan air dan debu</li>
+        </ul>
+    </div> 
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a53-5g-.jpg" alt="Samsung" onclick="showSpec('hp9')">
+        <h3>Samsung Galaxy A53</h3>
+        <ul id="hp9" class="hidden">
+            <li>Prosesor: Exynos 1380</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Layar: 6.5 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a33-5g.jpg" alt="Samsung" onclick="showSpec('hp10')">
+        <h3>Samsung Galaxy A33</h3>
+        <ul id="hp10" class="hidden">
+            <li>Prosesor: Exynos 1380</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.4 inci Super AMOLED</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 8MP (f/2.2) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 16MP (f/2.0)</li>
+            <li>Baterai: 4000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a23.jpg" alt="Samsung" onclick="showSpec('hp11')">
+        <h3>Samsung Galaxy A23</h3>
+        <ul id="hp11" class="hidden">
+            <li>Prosesor: MediaTek Helio G85</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.5 inci Super AMOLED</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 8MP (f/2.2) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 16MP (f/2.0)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13.jpg" alt="Samsung" onclick="showSpec('hp12')">
+        <h3>Samsung Galaxy A13</h3>
+        <ul id="hp12" class="hidden">
+            <li>Prosesor: MediaTek Helio G35</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.5 inci IPS LCD</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 5MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 8MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4-5g.jpg" alt="Samsung" onclick="showSpec('hp13')">
+        <h3>Samsung Galaxy Z Fold4</h3>
+        <ul id="hp13" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 256GB, 512GB</li>
+            <li>RAM: 12GB</li>
+            <li>Layar Luar: 6.2 inci Dynamic AMOLED 2X</li>
+            <li>Layar Dalam: 7.6 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 108MP (f/1.8) + 12MP (f/2.4) + 12MP (f/2.2)</li>
+            <li>Kamera Depan (Layar Luar): 16MP (f/2.2)</li>
+            <li>Kamera Depan (Layar Dalam): 10MP (f/2.2) + 4MP (f/1.8)</li>
+            <li>Baterai: 4400mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: S Pen support, Sensor sidik jari dalam layar, NFC, IPX8 tahan air dan debu</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold3-5g.jpg" alt="Samsung" onclick="showSpec('hp14')">
+        <h3>Samsung Galaxy Z Fold3</h3>
+        <ul id="hp14" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 256GB, 512GB</li>
+            <li>RAM: 12GB</li>
+            <li>Layar Luar: 6.2 inci Dynamic AMOLED 2X</li>
+            <li>Layar Dalam: 7.6 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2) + 12MP (f/2.4)</li>
+            <li>Kamera Depan (Layar Luar): 10MP (f/2.2)</li>
+            <li>Kamera Depan (Layar Dalam): 4MP (f/1.8)</li>
+            <li>Baterai: 4400mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: S Pen support, Sensor sidik jari dalam layar, NFC, IPX8 tahan air dan debu</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold2-5g.jpg" alt="Samsung" onclick="showSpec('hp15')">
+        <h3>Samsung Galaxy Z Fold2</h3>
+        <ul id="hp15" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 256GB, 512GB</li>
+            <li>RAM: 12GB</li>
+            <li>Layar Luar: 6.23 inci Super AMOLED</li>
+            <li>Layar Dalam: 7.6 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2) + 12MP (f/2.4)</li>
+            <li>Kamera Depan (Layar Luar): 10MP (f/2.2)</li>
+            <li>Kamera Depan (Layar Dalam): 10MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: S Pen support, Sensor sidik jari samping, NFC, IPX8 tahan air dan debu</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-fold.jpg" alt="Samsung" onclick="showSpec('hp16')">
+        <h3>Samsung Galaxy Z Fold1</h3>
+        <ul id="hp16" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 512GB</li>
+            <li>RAM: 12GB</li>
+            <li>Layar Luar: 4.6 inci Super AMOLED</li>
+            <li>Layar Dalam: 7.3 inci Dynamic AMOLED</li>
+            <li>Kamera Belakang: 12MP (f/1.5-2.4) + 12MP (f/2.4) + 16MP (f/2.2)</li>
+            <li>Kamera Depan (Layar Luar): 10MP (f/2.2)</li>
+            <li>Kamera Depan (Layar Dalam): 10MP (f/2.2) + 8MP (f/1.9)</li>
+            <li>Baterai: 4380mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 10</li>
+            <li>Fitur Tambahan: S Pen support, Sensor sidik jari samping, NFC, IPX8 tahan air dan debu</li>
+        </ul>
+    </div>
+
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip4-5g.jpg" alt="Samsung" onclick="showSpec('hp17')">
+        <h3>Samsung Galaxy Z Flip4</h3>
+        <ul id="hp17" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 8GB</li>
+            <li>Layar Utama: 6.7 inci Dynamic AMOLED</li>
+            <li>Layar Kecil: 1.9 inci Super AMOLED</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2)</li>
+            <li>Kamera Depan: 10MP (f/2.4)</li>
+            <li>Baterai: 3300mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari samping, NFC, IPX8 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip3-5g.jpg" alt="Samsung" onclick="showSpec('hp18')">
+        <h3>Samsung Galaxy Z Flip3</h3>
+        <ul id="hp18" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 8GB</li>
+            <li>Layar Utama: 6.7 inci Dynamic AMOLED 2X</li>
+            <li>Layar Sekunder: 1.9 inci Super AMOLED</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2)</li>
+            <li>Kamera Depan: 10MP (f/2.4)</li>
+            <li>Baterai: 3300mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari samping, NFC</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip-5g-mystic-bronze.jpg" alt="Samsung" onclick="showSpec('hp19')">
+        <h3>Samsung Galaxy Z Flip2</h3>
+        <ul id="hp19" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 256GB</li>
+            <li>RAM: 8GB</li>
+            <li>Layar Utama: 6.7 inci Dynamic AMOLED</li>
+            <li>Layar Sekunder: 1.1 inci Super AMOLED</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2)</li>
+            <li>Kamera Depan: 10MP (f/2.4)</li>
+            <li>Baterai: 3300mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 10</li>
+            <li>Fitur Tambahan: Sensor sidik jari samping, NFC</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip-01.jpg" alt="Samsung" onclick="showSpec('hp20')">
+        <h3>Samsung Galaxy Z Flip1</h3>
+        <ul id="hp20" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>Memori Internal: 256GB</li>
+            <li>RAM: 8GB</li>
+            <li>Layar Utama: 6.7 inci Dynamic AMOLED</li>
+            <li>Layar Sekunder: 1.1 inci Super AMOLED</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2)</li>
+            <li>Kamera Depan: 10MP (f/2.4)</li>
+            <li>Baterai: 3300mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 10</li>
+            <li>Fitur Tambahan: Sensor sidik jari samping, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a12-sm-a125.jpg" alt="Samsung" onclick="showSpec('hp21')">
+        <h3>Samsung Galaxy A12</h3>
+        <ul id="hp21" class="hidden">
+            <li>Prosesor: MediaTek Helio P35</li>
+            <li>Memori Internal: 32GB, 64GB, 128GB</li>
+            <li>RAM: 3GB, 4GB, 6GB</li>
+            <li>Layar: 6.5 inci PLS IPS</li>
+            <li>Kamera Belakang: 48MP (f/2.0) + 5MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 8MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 10</li>
+            <li>Fitur Tambahan: Sensor sidik jari samping, NFC</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22.jpg" alt="Samsung" onclick="showSpec('hp22')">
+        <h3>Samsung Galaxy A22 4G</h3>
+        <ul id="hp22" class="hidden">
+            <li>Prosesor: MediaTek Helio G80</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.4 inci Super AMOLED</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 8MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 13MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC</li>
+            <a class="TombolReview" href="ReviewHPA224G.html">Review Handphone ini</a>
+
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a22-5g.jpg" alt="Samsung" onclick="showSpec('hp23')">
+        <h3>Samsung Galaxy A22 5G</h3>
+        <ul id="hp23" class="hidden">
+            <li>Prosesor: MediaTek Dimensity 700</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB</li>
+            <li>Layar: 6.6 inci TFT</li>
+            <li>Kamera Belakang: 48MP (f/1.8) + 5MP (f/2.2) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 8MP (f/2.0)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari samping, NFC</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a32-5g.jpg" alt="Samsung" onclick="showSpec('hp24')">
+        <h3>Samsung Galaxy A32</h3>
+        <ul id="hp24" class="hidden">
+            <li>Prosesor: MediaTek Helio G80</li>
+            <li>Memori Internal: 64GB, 128GB</li>
+            <li>RAM: 4GB, 6GB, 8GB</li>
+            <li>Layar: 6.4 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 8MP (f/2.2) + 5MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 20MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52-4g.jpg" alt="Samsung" onclick="showSpec('hp25')">
+        <h3>Samsung Galaxy A52</h3>
+        <ul id="hp25" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 720G</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Layar: 6.5 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP67 tahan air dan debu</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a52s.jpg" alt="Samsung" onclick="showSpec('hp26')">
+        <h3>Samsung Galaxy A52s</h3>
+        <ul id="hp26" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 778G</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Layar: 6.5 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP67 tahan air dan debu</li>
+        </ul>
+    </div>
+
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a72-4g.jpg" alt="Samsung" onclick="showSpec('hp27')">
+        <h3>Samsung Galaxy A72</h3>
+        <ul id="hp27" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 720G</li>
+            <li>Memori Internal: 128GB, 256GB</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Layar: 6.7 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 8MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP67 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-5g-r.jpg" alt="Samsung" onclick="showSpec('hp28')">
+        <h3>Samsung Galaxy S21</h3>
+        <ul id="hp28" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 888 / Exynos 2100</li>
+            <li>RAM: 8GB</li>
+            <li>Penyimpanan: 128GB, 256GB, 512GB</li>
+            <li>Layar: 6.2 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2) + 64MP (f/2.0)</li>
+            <li>Kamera Depan: 10MP (f/2.2)</li>
+            <li>Baterai: 4000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-plus-5g-.jpg" alt="Samsung" onclick="showSpec('hp29')">
+        <h3>Samsung Galaxy S21+</h3>
+        <ul id="hp29" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 888 / Exynos 2100</li>
+            <li>RAM: 8GB</li>
+            <li>Penyimpanan: 128GB, 256GB, 512GB</li>
+            <li>Layar: 6.7 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 12MP (f/1.8) + 12MP (f/2.2) + 64MP (f/2.0)</li>
+            <li>Kamera Depan: 10MP (f/2.2)</li>
+            <li>Baterai: 4800mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg" alt="Samsung" onclick="showSpec('hp30')">
+        <h3>Samsung Galaxy S21 Ultra</h3>
+        <ul id="hp30" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 888 / Exynos 2100</li>
+            <li>RAM: 12GB, 16GB</li>
+            <li>Penyimpanan: 128GB, 256GB, 512GB, 1TB</li>
+            <li>Layar: 6.8 inci Dynamic AMOLED 2X</li>
+            <li>Kamera Belakang: 108MP (f/1.8) + 12MP (f/2.2) + 10MP (f/2.4) + 10MP (f/4.9)</li>
+            <li>Kamera Depan: 40MP (f/2.2)</li>
+            <li>Baterai: 5000mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: S Pen support, Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-fe-5g.jpg" alt="Samsung" onclick="showSpec('hp31')">
+        <h3>Samsung Galaxy S21 FE</h3>
+        <ul id="hp31" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 888 / Exynos 2100</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Penyimpanan: 128GB, 256GB</li>
+            <li>Layar: 6.4 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 8MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 4500mAh (dapat diisi ulang secara nirkabel)</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04s.jpg" alt="Samsung" onclick="showSpec('hp32')">
+        <h3>Samsung Galaxy A04s</h3>
+        <ul id="hp32" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 450</li>
+            <li>RAM: 3GB, 4GB</li>
+            <li>Penyimpanan: 32GB, 64GB, 128GB</li>
+            <li>Layar: 6.5 inci PLS IPS</li>
+            <li>Kamera Belakang: 13MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 5MP (f/2.2)</li>
+            <li>Baterai: 5000mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a04.jpg" alt="Samsung" onclick="showSpec('hp33')">
+        <h3>Samsung Galaxy A04</h3>
+        <ul id="hp33" class="hidden">
+            <li>Prosesor: MediaTek MT6739W</li>
+            <li>RAM: 2GB</li>
+            <li>Penyimpanan: 32GB</li>
+            <li>Layar: 5.7 inci PLS IPS</li>
+            <li>Kamera Belakang: 13MP (f/2.2) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 5MP (f/2.2)</li>
+            <li>Baterai: 3000mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 10</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a03s.jpg" alt="Samsung" onclick="showSpec('hp34')">
+        <h3>Samsung Galaxy A03s</h3>
+        <ul id="hp34" class="hidden">
+            <li>Prosesor: MediaTek Helio P35</li>
+            <li>RAM: 3GB, 4GB</li>
+            <li>Penyimpanan: 32GB, 64GB, 128GB</li>
+            <li>Layar: 6.5 inci PLS IPS</li>
+            <li>Kamera Belakang: 13MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 5MP (f/2.2)</li>
+            <li>Baterai: 5000mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a2-core-sm-a260f.jpg" alt="Samsung" onclick="showSpec('hp35')">
+        <h3>Samsung Galaxy A2 Core</h3>
+        <ul id="hp35" class="hidden">
+            <li>Prosesor: Exynos 7870 Octa</li>
+            <li>RAM: 1GB</li>
+            <li>Penyimpanan: 8GB, 16GB</li>
+            <li>Layar: 5.0 inci PLS TFT</li>
+            <li>Kamera Belakang: 5MP (f/1.9)</li>
+            <li>Kamera Depan: 5MP (f/2.2)</li>
+            <li>Baterai: 2600mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 8.1 Oreo (Go edition)</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a01.jpg" alt="Samsung" onclick="showSpec('hp36')">
+        <h3>Samsung Galaxy A01</h3>
+        <ul id="hp36" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon 439</li>
+            <li>RAM: 2GB, 3GB</li>
+            <li>Penyimpanan: 16GB, 32GB</li>
+            <li>Layar: 5.7 inci PLS TFT</li>
+            <li>Kamera Belakang: 13MP (f/2.2) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 5MP (f/2.0)</li>
+            <li>Baterai: 3000mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 10</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m12.jpg" alt="Samsung" onclick="showSpec('hp37')">
+        <h3>Samsung Galaxy M12</h3>
+        <ul id="hp37" class="hidden">
+            <li>Prosesor: Exynos 850</li>
+            <li>RAM: 3GB, 4GB, 6GB</li>
+            <li>Penyimpanan: 32GB, 64GB, 128GB</li>
+            <li>Layar: 6.5 inci PLS IPS</li>
+            <li>Kamera Belakang: 48MP (f/2.0) + 5MP (f/2.2) + 2MP (f/2.4) + 2MP (f/2.4)</li>
+            <li>Kamera Depan: 8MP (f/2.2)</li>
+            <li>Baterai: 6000mAh</li>
+            <li>Jaringan: 4G</li>
+            <li>Sistem Operasi: Android 11</li>
+            <li>Fitur Tambahan: Sensor sidik jari belakang, NFC</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m33.jpg" alt="Samsung" onclick="showSpec('hp39')">
+        <h3>Samsung Galaxy M33</h3>
+        <ul id="hp39" class="hidden">
+            <li>Prosesor: MediaTek Dimensity 700</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Penyimpanan: 128GB, 256GB</li>
+            <li>Layar: 6.6 inci Super AMOLED</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 6000mAh</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m53-5g.jpg" alt="Samsung" onclick="showSpec('hp40')">
+        <h3>Samsung Galaxy M53</h3>
+        <ul id="hp40" class="hidden">
+            <li>Prosesor: Qualcomm Snapdragon XYZ</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Penyimpanan: 128GB, 256GB</li>
+            <li>Layar: 6.7 inci Super AMOLED Plus</li>
+            <li>Kamera Belakang: 64MP (f/1.8) + 12MP (f/2.2) + 5MP (f/2.4) + 5MP (f/2.4)</li>
+            <li>Kamera Depan: 32MP (f/2.2)</li>
+            <li>Baterai: 6000mAh</li>
+            <li>Jaringan: 5G</li>
+            <li>Sistem Operasi: Android 12</li>
+            <li>Fitur Tambahan: Sensor sidik jari dalam layar, NFC, IP68 tahan air dan debu</li>
+        </ul>
+    </div>
+    <div class="hp-item">
+        <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m62.jpg" alt="Samsung" onclick="showSpec('hp41')">
+        <h3>Samsung Galaxy M62</h3>
+        <ul id="hp41" class="hidden">
+            <li>Layar: 6.7 inci Super AMOLED Plus, resolusi 1080 x 2400 piksel</li>
+            <li>Prosesor: Exynos 9825 (7 nm)</li>
+            <li>Sistem Operasi: Android 11, One UI 3.1</li>
+            <li>RAM: 6GB, 8GB</li>
+            <li>Penyimpanan Internal: 128GB, 256GB (dapat diperluas melalui slot kartu microSD)</li>
+            <li>Kamera Belakang: 64 MP (f/1.8, wide) + 12 MP (f/2.2, ultrawide) + 5 MP (f/2.4, makro) + 5 MP (f/2.4, depth)</li>
+            <li>Kamera Depan: 32 MP (f/2.2, wide)</li>
+            <li>Baterai: 7,000mAh (dapat diisi ulang dengan 25W fast charging)</li>
+            <li>Jaringan: 4G LTE</li>
+            <li>Fitur Tambahan: Sensor sidik jari di samping, NFC, jack audio 3.5mm, USB Type-C</li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="SamsungJava.js"></script>
+</body>
+</html>

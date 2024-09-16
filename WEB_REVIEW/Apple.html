@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DKReview</title>
+  <link rel="stylesheet" href="SamsungCSS.css"/>
+  <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <img src="gambarlogohp4.jpg" alt="Logo">
+    <div class="logo-name">DKReview</div>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Cari iPhone..." id="searchInput">
+      <button class="search-button" onclick="search()">CARI</button>
+    </div>
+    <div class="menu">
+      <a href="web.html">Home</a>
+    </nav>
+
+    <div class="hp-container">
+
+
+
+
+
+
+     <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14.jpg" alt="iPhone" onclick="showSpec('1')">
+      <h3>iPhone 14</h3>
+      <ul id="1" class="hidden">
+        <li>Layar: 6.1 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A16 Bionic</li>
+        <li>Sistem Operasi: iOS 16</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.4, ultrawide)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 14 Plus -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg" alt="iPhone" onclick="showSpec('2')">
+      <h3>iPhone 14 Plus</h3>
+      <ul id="2" class="hidden">
+        <li>Layar: 6.7 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A16 Bionic</li>
+        <li>Sistem Operasi: iOS 16</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.4, ultrawide) + 12 MP (f/2.0, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 14 Pro -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro.jpg" alt="iPhone" onclick="showSpec('3')">
+      <h3>iPhone 14 Pro</h3>
+      <ul id="3" class="hidden">
+        <li>Layar: 6.1 inci Super Retina XDR ProMotion OLED</li>
+        <li>Prosesor: Apple A16 Bionic</li>
+        <li>Sistem Operasi: iOS 16</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB, 1TB</li>
+        <li>Kamera Belakang: 12 MP (f/1.5, wide) + 12 MP (f/1.8, ultrawide) + 12 MP (f/2.8, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers, LiDAR Scanner</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 14 Pro Max -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg" alt="iPhone" onclick="showSpec('4')">
+      <h3>iPhone 14 Pro Max</h3>
+      <ul id="4" class="hidden">
+        <li>Layar: 6.7 inci Super Retina XDR ProMotion OLED</li>
+        <li>Prosesor: Apple A16 Bionic</li>
+        <li>Sistem Operasi: iOS 16</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB, 1TB</li>
+        <li>Kamera Belakang: 12 MP (f/1.5, wide) + 12 MP (f/1.8, ultrawide) + 12 MP (f/2.8, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers, LiDAR Scanner</li>
+      </ul>
+    </div>
+
+    <!-- iphone 13-->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg" alt="iPhone" onclick="showSpec('5')">
+      <h3>iPhone 13</h3>
+      <ul id="5" class="hidden">
+        <li>Layar: 6.1 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A15 Bionic</li>
+        <li>Sistem Operasi: iOS 15</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB, 1TB</li>
+        <li>Kamera Belakang: 12 MP (f/1.6, wide) + 12 MP (f/2.4, ultrawide)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 13 Mini -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg" alt="iPhone" onclick="showSpec('6')">
+      <h3>iPhone 13 Mini</h3>
+      <ul id="6" class="hidden">
+        <li>Layar: 5.4 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A15 Bionic</li>
+        <li>Sistem Operasi: iOS 15</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB, 1TB</li>
+        <li>Kamera Belakang: 12 MP (f/1.6, wide) + 12 MP (f/2.4, ultrawide)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 13 Pro -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg" alt="iPhone" onclick="showSpec('7')">
+      <h3>iPhone 13 Pro</h3>
+      <ul id="7" class="hidden">
+        <li>Layar: 6.1 inci Super Retina XDR ProMotion OLED</li>
+        <li>Prosesor: Apple A15 Bionic</li>
+        <li>Sistem Operasi: iOS 15</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB, 1TB</li>
+        <li>Kamera Belakang: 12 MP (f/1.5, wide) + 12 MP (f/1.8, ultrawide) + 12 MP (f/2.8, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 13 Pro Max -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg" alt="iPhone" onclick="showSpec('8')">
+      <h3>iPhone 13 Pro Max</h3>
+      <ul id="8" class="hidden">
+        <li>Layar: 6.7 inci Super Retina XDR ProMotion OLED</li>
+        <li>Prosesor: Apple A15 Bionic</li>
+        <li>Sistem Operasi: iOS 15</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB, 1TB</li>
+        <li>Kamera Belakang: 12 MP (f/1.5, wide) + 12 MP (f/1.8, ultrawide) + 12 MP (f/2.8, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 12 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg" alt="iPhone" onclick="showSpec('9')">
+      <h3>iPhone 12</h3>
+      <ul id="9" class="hidden">
+        <li>Layar: 6.1 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A14 Bionic</li>
+        <li>Sistem Operasi: iOS 14</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.6, wide) + 12 MP (f/2.4, ultrawide)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 12 Mini -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg" alt="iPhone" onclick="showSpec('10')">
+      <h3>iPhone 12 Mini</h3>
+      <ul id="10" class="hidden">
+        <li>Layar: 5.4 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A14 Bionic</li>
+        <li>Sistem Operasi: iOS 14</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.6, wide) + 12 MP (f/2.4, ultrawide)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 12 Pro -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg" alt="iPhone" onclick="showSpec('11')">
+      <h3>iPhone 12 Pro</h3>
+      <ul id="11" class="hidden">
+        <li>Layar: 6.1 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A14 Bionic</li>
+        <li>Sistem Operasi: iOS 14</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.6, wide) + 12 MP (f/2.0, ultrawide) + 12 MP (f/2.2, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 12 Pro Max -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg" alt="iPhone" onclick="showSpec('12')">
+      <h3>iPhone 12 Pro Max</h3>
+      <ul id="12" class="hidden">
+        <li>Layar: 6.7 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A14 Bionic</li>
+        <li>Sistem Operasi: iOS 14</li>
+        <li>RAM: 6GB</li>
+        <li>Penyimpanan Internal: 128GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.6, wide) + 12 MP (f/2.0, ultrawide) + 12 MP (f/2.2, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: Tidak tersedia informasi</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 11 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg" alt="iPhone" onclick="showSpec('13')">
+      <h3>iPhone 11</h3>
+      <ul id="13" class="hidden">
+        <li>Layar: 6.1 inci Liquid Retina IPS LCD</li>
+        <li>Prosesor: Apple A13 Bionic</li>
+        <li>Sistem Operasi: iOS 13</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.4, ultrawide)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: 3110mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 11 Pro -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg" alt="iPhone" onclick="showSpec('14')">
+      <h3>iPhone 11 Pro</h3>
+      <ul id="14" class="hidden">
+        <li>Layar: 5.8 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A13 Bionic</li>
+        <li>Sistem Operasi: iOS 13</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.0, ultrawide) + 12 MP (f/2.4, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: 3190mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 11 Pro Max -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg" alt="iPhone" onclick="showSpec('15')">
+      <h3>iPhone 11 Pro Max</h3>
+      <ul id="15" class="hidden">
+        <li>Layar: 6.5 inci Super Retina XDR OLED</li>
+        <li>Prosesor: Apple A13 Bionic</li>
+        <li>Sistem Operasi: iOS 13</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.0, ultrawide) + 12 MP (f/2.4, telephoto)</li>
+        <li>Kamera Depan: 12 MP (f/2.2, wide)</li>
+        <li>Baterai: 3969mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC, Stereo Speakers</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 10 (iPhone X) -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-x.jpg" alt="iPhone" onclick="showSpec('16')">
+      <h3>iPhone X</h3>
+      <ul id="16" class="hidden">
+        <li>Layar: 5.8 inci Super Retina OLED</li>
+        <li>Prosesor: Apple A11 Bionic</li>
+        <li>Sistem Operasi: iOS 11</li>
+        <li>RAM: 3GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.4, telephoto)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 2716mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 10s (iPhone XS) -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg" alt="iPhone" onclick="showSpec('17')">
+      <h3>iPhone XS</h3>
+      <ul id="17" class="hidden">
+        <li>Layar: 5.8 inci Super Retina OLED</li>
+        <li>Prosesor: Apple A12 Bionic</li>
+        <li>Sistem Operasi: iOS 12</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.4, telephoto)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 2658mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone XS Max -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg" alt="iPhone" onclick="showSpec('18')">
+      <h3>iPhone XS Max</h3>
+      <ul id="18" class="hidden">
+        <li>Layar: 6.5 inci Super Retina OLED</li>
+        <li>Prosesor: Apple A12 Bionic</li>
+        <li>Sistem Operasi: iOS 12</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB, 512GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide) + 12 MP (f/2.4, telephoto)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 3174mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone XR -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg" alt="iPhone" onclick="showSpec('19')">
+      <h3>iPhone XR</h3>
+      <ul id="19" class="hidden">
+        <li>Layar: 6.1 inci Liquid Retina LCD</li>
+        <li>Prosesor: Apple A12 Bionic</li>
+        <li>Sistem Operasi: iOS 12</li>
+        <li>RAM: 3GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 2942mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Face ID, NFC</li>
+      </ul>
+    </div>
+    <!-- iPhone 8 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg" alt="iPhone" onclick="showSpec('20')">
+      <h3>iPhone 8</h3>
+      <ul id="20" class="hidden">
+        <li>Layar: 4.7 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A11 Bionic</li>
+        <li>Sistem Operasi: iOS 11</li>
+        <li>RAM: 2GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 1821mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 8 Plus -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-plus-new.jpg" alt="iPhone" onclick="showSpec('21')">
+      <h3>iPhone 8 Plus</h3>
+      <ul id="21" class="hidden">
+        <li>Layar: 5.5 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A11 Bionic</li>
+        <li>Sistem Operasi: iOS 11</li>
+        <li>RAM: 3GB</li>
+        <li>Penyimpanan Internal: 64GB, 256GB</li>
+        <li>Kamera Belakang: Dual 12 MP (f/1.8, wide) + 12 MP (f/2.8, telephoto)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 2675mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone SE (2020) -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg" alt="iPhone" onclick="showSpec('22')">
+      <h3>iPhone SE (2020)</h3>
+      <ul id="22" class="hidden">
+        <li>Layar: 4.7 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A13 Bionic</li>
+        <li>Sistem Operasi: iOS 13</li>
+        <li>RAM: 3GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 1821mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 7 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-7r4.jpg" alt="iPhone" onclick="showSpec('23')">
+      <h3>iPhone 7</h3>
+      <ul id="23" class="hidden">
+        <li>Layar: 4.7 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A10 Fusion</li>
+        <li>Sistem Operasi: iOS 10</li>
+        <li>RAM: 2GB</li>
+        <li>Penyimpanan Internal: 32GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8, wide)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 1960mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 7 Plus -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-7-plus-r2.jpg" alt="iPhone" onclick="showSpec('24')">
+      <h3>iPhone 7 Plus</h3>
+      <ul id="24" class="hidden">
+        <li>Layar: 5.5 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A10 Fusion</li>
+        <li>Sistem Operasi: iOS 10</li>
+        <li>RAM: 3GB</li>
+        <li>Penyimpanan Internal: 32GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: Dual 12 MP (f/1.8, wide) + 12 MP (f/2.8, telephoto)</li>
+        <li>Kamera Depan: 7 MP (f/2.2, wide)</li>
+        <li>Baterai: 2900mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 6 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6-4.jpg" alt="iPhone" onclick="showSpec('25')">
+      <h3>iPhone 6</h3>
+      <ul id="25" class="hidden">
+        <li>Layar: 4.7 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A8</li>
+        <li>Sistem Operasi: iOS 8</li>
+        <li>RAM: 1GB</li>
+        <li>Penyimpanan Internal: 16GB, 32GB, 64GB, 128GB</li>
+        <li>Kamera Belakang: 8 MP (f/2.2, wide)</li>
+        <li>Kamera Depan: 1.2 MP (f/2.2, selfie)</li>
+        <li>Baterai: 1810mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 6 Plus -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6-plus2.jpg" alt="iPhone" onclick="showSpec('26')">
+      <h3>iPhone 6 Plus</h3>
+      <ul id="26" class="hidden">
+        <li>Layar: 5.5 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A8</li>
+        <li>Sistem Operasi: iOS 8</li>
+        <li>RAM: 1GB</li>
+        <li>Penyimpanan Internal: 16GB, 64GB, 128GB</li>
+        <li>Kamera Belakang: 8 MP (f/2.2, wide)</li>
+        <li>Kamera Depan: 1.2 MP (f/2.2, selfie)</li>
+        <li>Baterai: 2915mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 6s -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6s1.jpg" alt="iPhone" onclick="showSpec('27')">
+      <h3>iPhone 6s</h3>
+      <ul id="27" class="hidden">
+        <li>Layar: 4.7 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A9</li>
+        <li>Sistem Operasi: iOS 9</li>
+        <li>RAM: 2GB</li>
+        <li>Penyimpanan Internal: 16GB, 32GB, 64GB, 128GB</li>
+        <li>Kamera Belakang: 12 MP (f/2.2, wide)</li>
+        <li>Kamera Depan: 5 MP (f/2.2, selfie)</li>
+        <li>Baterai: 1715mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 6s Plus -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-6s-plus.jpg" alt="iPhone" onclick="showSpec('28')">
+      <h3>iPhone 6s Plus</h3>
+      <ul id="28" class="hidden">
+        <li>Layar: 5.5 inci Retina HD LCD</li>
+        <li>Prosesor: Apple A9</li>
+        <li>Sistem Operasi: iOS 9</li>
+        <li>RAM: 2GB</li>
+        <li>Penyimpanan Internal: 16GB, 32GB, 64GB, 128GB</li>
+        <li>Kamera Belakang: 12 MP (f/2.2, wide)</li>
+        <li>Kamera Depan: 5 MP (f/2.2, selfie)</li>
+        <li>Baterai: 2750mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 5 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5-ofic.jpg" alt="iPhone" onclick="showSpec('29')">
+      <h3>iPhone 5</h3>
+      <ul id="29" class="hidden">
+        <li>Layar: 4 inci Retina Display</li>
+        <li>Prosesor: Apple A6</li>
+        <li>Sistem Operasi: iOS 6</li>
+        <li>RAM: 1GB</li>
+        <li>Penyimpanan Internal: 16GB, 32GB, 64GB</li>
+        <li>Kamera Belakang: 8 MP (f/2.4, wide)</li>
+        <li>Kamera Depan: 1.2 MP (f/2.4, selfie)</li>
+        <li>Baterai: 1440mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 5s -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5s-ofic.jpg" alt="iPhone" onclick="showSpec('30')">
+      <h3>iPhone 5s</h3>
+      <ul id="30" class="hidden">
+        <li>Layar: 4 inci Retina Display</li>
+        <li>Prosesor: Apple A7</li>
+        <li>Sistem Operasi: iOS 7</li>
+        <li>RAM: 1GB</li>
+        <li>Penyimpanan Internal: 16GB, 32GB, 64GB</li>
+        <li>Kamera Belakang: 8 MP (f/2.2, wide)</li>
+        <li>Kamera Depan: 1.2 MP (f/2.4, selfie)</li>
+        <li>Baterai: 1570mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 5c -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-5c-new2.jpg" alt="iPhone" onclick="showSpec('31')">
+      <h3>iPhone 5c</h3>
+      <ul id="31" class="hidden">
+        <li>Layar: 4 inci Retina Display</li>
+        <li>Prosesor: Apple A6</li>
+        <li>Sistem Operasi: iOS 7</li>
+        <li>RAM: 1GB</li>
+        <li>Penyimpanan Internal: 8GB, 16GB, 32GB</li>
+        <li>Kamera Belakang: 8 MP (f/2.4, wide)</li>
+        <li>Kamera Depan: 1.2 MP (f/2.4, selfie)</li>
+        <li>Baterai: 1507mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 4 -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4-ofic-final.jpg" alt="iPhone" onclick="showSpec('32')">
+      <h3>iPhone 4</h3>
+      <ul id="32" class="hidden">
+        <li>Layar: 3.5 inci Retina Display</li>
+        <li>Prosesor: Apple A4</li>
+        <li>Sistem Operasi: iOS 4</li>
+        <li>RAM: 512MB</li>
+        <li>Penyimpanan Internal: 8GB, 16GB, 32GB</li>
+        <li>Kamera Belakang: 5 MP (f/2.8, autofocus)</li>
+        <li>Kamera Depan: VGA (f/2.8)</li>
+        <li>Baterai: 1420mAh</li>
+        <li>Jaringan: 3G</li>
+        <li>Fitur Tambahan: FaceTime, Retina Flash</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 4s -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-4s-new.jpg" alt="iPhone" onclick="showSpec('33')">
+      <h3>iPhone 4s</h3>
+      <ul id="33" class="hidden">
+        <li>Layar: 3.5 inci Retina Display</li>
+        <li>Prosesor: Apple A5</li>
+        <li>Sistem Operasi: iOS 5</li>
+        <li>RAM: 512MB</li>
+        <li>Penyimpanan Internal: 8GB, 16GB, 32GB, 64GB</li>
+        <li>Kamera Belakang: 8 MP (f/2.4, autofocus)</li>
+        <li>Kamera Depan: VGA (f/2.8)</li>
+        <li>Baterai: 1432mAh</li>
+        <li>Jaringan: 3G</li>
+        <li>Fitur Tambahan: Siri, FaceTime, Retina Flash</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 3G -->
+    <div class="hp-item">
+      <img src="https://m-cdn.phonearena.com/images/phones/10530-940/Apple-iPhone-3G.jpg" alt="iPhone" onclick="showSpec('34')">
+      <h3>iPhone 3G</h3>
+      <ul id="34" class="hidden">
+        <li>Layar: 3.5 inci TFT</li>
+        <li>Prosesor: Apple A-GPS</li>
+        <li>Sistem Operasi: iOS 2</li>
+        <li>RAM: 128MB</li>
+        <li>Penyimpanan Internal: 8GB, 16GB</li>
+        <li>Kamera Belakang: 2 MP (f/2.8)</li>
+        <li>Kamera Depan: Tidak ada</li>
+        <li>Baterai: 1150mAh</li>
+        <li>Jaringan: 3G</li>
+        <li>Fitur Tambahan: A-GPS, Wi-Fi</li>
+      </ul>
+    </div>
+
+    <!-- iPhone 3GS -->
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-3gs-ofic.jpg" alt="iPhone" onclick="showSpec('35')">
+      <h3>iPhone 3GS</h3>
+      <ul id="35" class="hidden">
+        <li>Layar: 3.5 inci TFT</li>
+        <li>Prosesor: Apple A-GPS</li>
+        <li>Sistem Operasi: iOS 3</li>
+        <li>RAM: 256MB</li>
+        <li>Penyimpanan Internal: 8GB, 16GB, 32GB</li>
+        <li>Kamera Belakang: 3.15 MP (f/2.8, autofocus)</li>
+        <li>Kamera Depan: Tidak ada</li>
+        <li>Baterai: 1220mAh</li>
+        <li>Jaringan: 3G</li>
+        <li>Fitur Tambahan: A-GPS, Wi-Fi</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2022.jpg" alt="iPhone" onclick="showSpec('36')">
+      <h3>iPhone SE (2022)</h3>
+      <ul id="36" class="hidden">
+        <li>Layar: 4.7 inci Retina HD</li>
+        <li>Prosesor: Apple A14 Bionic</li>
+        <li>Sistem Operasi: iOS 15</li>
+        <li>RAM: 4GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8)</li>
+        <li>Kamera Depan: 7 MP (f/2.2)</li>
+        <li>Baterai: 1821mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://m.media-amazon.com/images/I/813ovO0PGGL.jpg" alt="iPhone" onclick="showSpec('37')">
+      <h3>iPhone SE 2nd Generation</h3>
+      <ul id="37" class="hidden">
+        <li>Layar: 4.7 inci Retina HD</li>
+        <li>Prosesor: Apple A13 Bionic</li>
+        <li>Sistem Operasi: iOS 14</li>
+        <li>RAM: 3GB</li>
+        <li>Penyimpanan Internal: 64GB, 128GB, 256GB</li>
+        <li>Kamera Belakang: 12 MP (f/1.8)</li>
+        <li>Kamera Depan: 7 MP (f/2.2)</li>
+        <li>Baterai: 1821mAh</li>
+        <li>Jaringan: 4G</li>
+        <li>Fitur Tambahan: Touch ID, NFC</li>
+      </ul>
+    </div>
+
+
+
+
+  </div>
+
+  <script src="SamsungJava.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DKReview</title>
+  <link rel="stylesheet" href="SamsungCSS.css"/>
+  <link href="https://fonts.cdnfonts.com/css/thegoodmonolith" rel="stylesheet">
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="gambarlogohp4.jpg" alt="Logo">
+    <div class="logo-name">DKReview</div>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Cari OPPO..." id="searchInput">
+      <button class="search-button" onclick="search()">CARI</button>
+    </div>
+    <div class="menu">
+      <a href="web.html">Home</a>
+    </div>
+  </nav>
+
+  <div class="hp-container">
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n2-flip.jpg" alt="Samsung" onclick="showSpec('1')">
+      <h3>Find N2 Flip</h3>
+      <ul id="1" class="hidden">
+        <li>Layar: Unfolded: 166.2 x 75.2 x 7.5 mm Folded: 85.5 x 75.2 x 16 mm</li>
+        <li>Prosesor: Mediatek Dimensity 9000+ (4 nm)</li>
+        <li>Sistem Operasi: Android 13, ColorOS 13</li>
+        <li>RAM: 8GB , 12GB , 16GB</li>
+        <li>Penyimpanan Internal:  256GB , 256HB</li>
+        <li>Kamera Belakang:50 MP, f/1.8, 23mm (wide), 1/1.56", 1.0µm, multi-directional PDAF
+        8 MP, f/2.2, 112˚, (ultrawide)</li>
+        <li>Kamera Depan:32 MP, f/2.4, 22mm (wide), 1/2.74", 0.8µm, AF</li>
+        <li>Baterai: Li-Po 4300 mAh, non-removable , 44W wired, 50% in 23 min (advertised)</li>
+        <li>Jaringan: 5G</li>
+        <li>Fitur Tambahan: Sensor sidik jari di samping, NFC, USB Type-C</li>
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-t-4g.jpg" alt="Oppo Reno8T" onclick="showSpec('2')">
+      <h3>Oppo Reno8T</h3>
+      <ul id="2" class="hidden">
+        <!-- Informasi tentang Oppo Reno8T -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-t.jpg" alt="Oppo Reno8T5G" onclick="showSpec('3')">
+      <h3>Oppo Reno8T5G</h3>
+      <ul id="3" class="hidden">
+        <!-- Informasi tentang Oppo Reno8T5G -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a58.jpg" alt="Oppo A78" onclick="showSpec('4')">
+      <h3>Oppo A78</h3>
+      <ul id="4" class="hidden">
+        <!-- Informasi tentang Oppo A78 -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a56s.jpg" alt="Oppo A56s" onclick="showSpec('5')">
+      <h3>Oppo A56s</h3>
+      <ul id="5" class="hidden">
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a58x.jpg" alt="Oppo A58x" onclick="showSpec('6')">
+      <h3>Oppo A58x</h3>
+      <ul id="6" class="hidden">
+        <!-- Informasi tentang Oppo A58x -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9-pro.jpg" alt="Oppo Reno9 Pro" onclick="showSpec('7')">
+      <h3>Oppo Reno9 Pro</h3>
+      <ul id="7" class="hidden">
+        <!-- Informasi tentang Oppo Reno9 Pro -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9-pro-plus.jpg" alt="Oppo Reno9 Pro+" onclick="showSpec('8')">
+      <h3>Oppo Reno9 Pro+</h3>
+      <ul id="8" class="hidden">
+        <!-- Informasi tentang Oppo Reno9 Pro+ -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno9.jpg" alt="Oppo Reno9" onclick="showSpec('9')">
+      <h3>Oppo Reno9</h3>
+      <ul id="9" class="hidden">
+        <!-- Informasi tentang Oppo Reno9 -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a1-pro.jpg" alt="Oppo A1 Pro" onclick="showSpec('10')">
+      <h3>Oppo A1 Pro</h3>
+      <ul id="10" class="hidden">
+        <!-- Informasi tentang Oppo A1 Pro -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a58.jpg" alt="Oppo A54" onclick="showSpec('11')">
+      <h3>Oppo A54</h3>
+      <ul id="11" class="hidden">
+        <!-- Informasi tentang Oppo A54 -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a17k.jpg" alt="Oppo A17k" onclick="showSpec('12')">
+      <h3>Oppo A17k</h3>
+      <ul id="12" class="hidden">
+        <!-- Informasi tentang Oppo A17k -->
+      </ul>
+    </div>
+
+    <div class="hp-item">
+      <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a77s.jpg" alt="Oppo A77s" onclick="showSpec('13')">
+      <h3>Oppo A77s</h3>
+      <ul id="13" class="hidden">
+        <!-- Informasi tentang Oppo A77s -->
+      </ul>
+    </div>
+  </div>
+
+
+
+  <script src="SamsungJava.js"></script>
+</body>
+</html>
